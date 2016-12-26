@@ -1,5 +1,4 @@
 ﻿using AbstractFactory;
-using Adapter;
 using Should;
 using Xunit;
 

@@ -64,7 +64,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\CommandTests.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibilityTests.cs" />
+    <Compile Include="Creational\FactoryMethodTests.cs" />
+    <Compile Include="Creational\FactoryKitTests.cs" />
+    <Compile Include="Creational\BuilderTests.cs" />
     <Compile Include="Creational\AbstractFactoryTests.cs" />
+    <Compile Include="Creational\StepBuilderTests.cs" />
+    <Compile Include="Creational\SingletonTests.cs" />
+    <Compile Include="Creational\ObjectPoolTests.cs" />
+    <Compile Include="Creational\ModuleTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural\AdapterTests.cs" />
   </ItemGroup>
@@ -76,6 +85,42 @@
     <ProjectReference Include="..\Adapter\Adapter.csproj">
       <Project>{7a0b5b0b-1504-45b1-b885-de1df1a6157a}</Project>
       <Name>Adapter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Builder\Builder.csproj">
+      <Project>{7499dd6a-6e64-4ef0-b5d3-e4e28971ba59}</Project>
+      <Name>Builder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChainOfResponsibility\ChainOfResponsibility.csproj">
+      <Project>{f8a4ecf5-8691-4482-9025-a3c3cd4862b9}</Project>
+      <Name>ChainOfResponsibility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Command\Command.csproj">
+      <Project>{07835209-00fd-466f-a0e3-1dfe5129121d}</Project>
+      <Name>Command</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FactoryKit\FactoryKit.csproj">
+      <Project>{86fad38a-f0e2-4e21-ab77-a517b1e0053f}</Project>
+      <Name>FactoryKit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FactoryMethod\FactoryMethod.csproj">
+      <Project>{7c42ae4a-f986-422a-a3b2-38aa383a6c87}</Project>
+      <Name>FactoryMethod</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Module\Module.csproj">
+      <Project>{5dc1ff51-60d6-4a29-84a0-a9eedf111319}</Project>
+      <Name>Module</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ObjectPool\ObjectPool.csproj">
+      <Project>{d20fbaec-d46c-4c21-9b2a-d1572d8523d3}</Project>
+      <Name>ObjectPool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Singleton\Singleton.csproj">
+      <Project>{33e90b08-23c2-4424-8cac-2bcef8291ea3}</Project>
+      <Name>Singleton</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StepBuilder\StepBuilder.csproj">
+      <Project>{908aca47-27f6-4330-95d4-3bd7cc8324b9}</Project>
+      <Name>StepBuilder</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
